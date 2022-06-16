@@ -1,0 +1,39 @@
+package TrailJavaPractice;
+
+
+public class Practice9 {
+	int a;
+	char b;
+	boolean c;
+	
+	
+	private String name;
+	
+	//contructor
+	Practice9(){
+		System.out.println("Welcome");
+		name = "Bhaskar";
+	}
+	Practice9(String name){
+		
+		System.out.println("Welcome   "+name);
+		
+	}
+
+	
+		
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Practice9 obj = new Practice9();
+		// no argument contructor
+		System.out.println(obj.name);
+		// argument base constructor
+		Practice9 obj1 = new Practice9("Bhaskar");
+		Practice9 obj2 = new Practice9("Kittu");
+		// default contructor
+		System.out.println(obj.a+"\t"+obj.b+"\t"+obj.c);
+		
+
+	}
+
+}
